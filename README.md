@@ -75,6 +75,6 @@
 * 타입스크립트(TypeScript) 패키지 설치 : `npm i -g typescript`
 * 타입스크립트 환경설정 : `tsc --init`
   * [tsconfig.json](./tsconfig.json)
-* 타입스크립트 컴파일(Compile) :  `tsc` OR `ts-node ./src/index.ts`
-* 타입스크립트 실행 : `node src/index`
+* 타입스크립트 컴파일(Compile) :  `tsc`
+* 타입스크립트 실행 : `node src/index` `OR` `ts-node ./src/index.ts`
   * [index](./src/index.ts)
