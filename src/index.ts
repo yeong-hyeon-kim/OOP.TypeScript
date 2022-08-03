@@ -78,3 +78,61 @@ console.log(instanceKTX.getSpeed());
 
 console.log(getEnergyEfficiency(450, 15));
 console.log(getEnergyEfficiency(450, "20"));
+
+/* 추상화 (Abstraction) */
+
+abstract class Computer {
+  private _Model: string;
+  private _Brand: string;
+
+  constructor(Model: string, Brand: string) {
+    this._Model = Model;
+    this._Brand = Brand;
+  }
+
+  // propComputer = {
+  //   get model(): string {
+  //     return super._Model;
+  //   },
+  //   set model(Model: string) {
+  //     super._Model = Model;
+  //   },
+
+  //   get brand(): string {
+  //     return super._Brand;
+  //   },
+  //   set brand(Brand: string) {
+  //     super._Brand = Brand;
+  //   },
+  // };
+
+  get model(): string {
+    return this._Model;
+  }
+  set model(Model: string) {
+    this._Model = Model;
+  }
+
+  get brand(): string {
+    return this._Brand;
+  }
+  set brand(Brand: string) {
+    this._Brand = Brand;
+  }
+}
+
+class SmartPhone extends Computer {
+  constructor(Model: string, Brand: string) {
+    super(Model, Brand);
+  }
+}
+
+class Notebook extends Computer {
+  constructor(Model: string, Brand: string) {
+    super(Model, Brand);
+  }
+}
+
+let GalayxBook: Notebook = new Notebook("GalayxBook", "Samsung");
+
+console.log(`GalayxBook : ${GalayxBook.brand}`);
