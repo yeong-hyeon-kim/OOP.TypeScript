@@ -76,4 +76,5 @@
 * 타입스크립트 환경설정 : `tsc --init`
   * [tsconfig.json](./tsconfig.json)
 * 타입스크립트 컴파일(Compile) :  `tsc`
-* 타입스크립트 실행 : `node` [src/practice](./src/practice.ts)
+* 타입스크립트 실행 : `node src/index`
+  * [index](./src/index.ts)
