@@ -67,4 +67,4 @@
 ||운영체제(OS)|언어(Language)|프레임워크(Framework)|종속성(Dependency)|
 |-|:-:|:-:|:-:|:-:|
 |명칭(Name)|![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=Windows&logoColor=white)|![TYPESCRIPT](https://img.shields.io/badge/TYPESCRIPT-3178C6?style=flat-square&logo=TypeScript&logoColor=white)|-|![NPM](https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white)|
-|버전(Version)|`10, 11`|`es2016`|-|[package.json](./package.json)]|
+|버전(Version)|`10, 11`|`ES2016`|-|[package.json](./package.json)|
