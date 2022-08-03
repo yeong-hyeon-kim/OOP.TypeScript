@@ -68,3 +68,12 @@
 |-|:-:|:-:|:-:|:-:|
 |명칭(Name)|![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=Windows&logoColor=white)|![TYPESCRIPT](https://img.shields.io/badge/TYPESCRIPT-3178C6?style=flat-square&logo=TypeScript&logoColor=white)|-|![NPM](https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white)|
 |버전(Version)|`10, 11`|`ES2016`|-|[package.json](./package.json)|
+
+## 📖 비고(Remark)
+
+* NPM(Node Package Manager) 초기화 : `npm init -y`
+* 타입스크립트(TypeScript) 패키지 설치 : `npm i -g typescript`
+* 타입스크립트 환경설정 : `tsc --init`
+  * [tsconfig.json](./tsconfig.json)
+* 타입스크립트 컴파일(Compile) :  `tsc`
+* 타입스크립트 실행 : `node` [src/practice](./src/practice.ts)
